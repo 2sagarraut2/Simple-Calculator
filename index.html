@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="../jquery-3.5.1.js"></script>
+    
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Document</title>
+    <style>
+        .column {
+            margin-left: 50px;
+            width: fit-content;
+        }
+
+        .title {
+            font-size: 22px;
+        }
+
+        input {
+            width: 173px !important;
+            margin-bottom: 5px;
+            border-radius: 2px;
+        }
+
+        .btn {
+            margin-top: 3px;
+            width: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="column">
+        <div class="row title">
+            Simple Calculator
+        </div>
+        <div class="row">
+            <input type="text" class="form-control rounded" disabled id="resultbox"/>
+            <input type="text" class="form-control rounded" style="background-color: white;" disabled id="textbox"/>
+        </div>
+        <div class="row">
+            <button id="9" class="btn btn-primary btnClick">9</button>
+            <button id="8" class="btn btn-primary btnClick">8</button>
+            <button id="7" class="btn btn-primary btnClick">7</button>
+            <button id="-" class="btn btn-primary btnClick">-</button>
+        </div>
+        <div class="row">
+            <button id="6" class="btn btn-primary btnClick">6</button>
+            <button id="5" class="btn btn-primary btnClick">5</button>
+            <button id="4" class="btn btn-primary btnClick">4</button>
+            <button id="*" class="btn btn-primary btnClick">*</button>
+        </div>
+        <div class="row">
+            <button id="3" class="btn btn-primary btnClick">3</button>
+            <button id="2" class="btn btn-primary btnClick">2</button>
+            <button id="1" class="btn btn-primary btnClick">1</button>
+            <button id="/" class="btn btn-primary btnClick">/</button>
+        </div>
+        <div class="row">
+            <button id="0" class="btn btn-primary btnClick">0</button>
+            <button id="CE" class="btn btn-primary clear">CE</button>
+            <button id="=" class="btn btn-primary equal">=</button>
+            <button id="+" class="btn btn-primary btnClick">+</button>
+        </div>
+    </div>
+</body>
+
+</html>
