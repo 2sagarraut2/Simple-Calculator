@@ -14,11 +14,6 @@
     <script src="./script.js" type="text/javascript"></script>
     <title>Document</title>
     <style>
-        .column {
-            margin-left: 50px;
-            width: fit-content;
-        }
-
         .title {
             font-size: 22px;
         }
@@ -37,7 +32,7 @@
 </head>
 
 <body>
-    <div class="column">
+    <div class="container">
         <div class="row title">
             Simple Calculator
         </div>
@@ -46,28 +41,28 @@
             <input type="text" class="form-control rounded" style="background-color: white;" disabled id="textbox"/>
         </div>
         <div class="row">
-            <button id="9" class="btn btn-primary btnClick">9</button>
-            <button id="8" class="btn btn-primary btnClick">8</button>
-            <button id="7" class="btn btn-primary btnClick">7</button>
-            <button id="-" class="btn btn-primary btnClick">-</button>
+            <button id="9" class="btn btn-primary btnClick col-3">9</button>
+            <button id="8" class="btn btn-primary btnClick col-3">8</button>
+            <button id="7" class="btn btn-primary btnClick col-3">7</button>
+            <button id="-" class="btn btn-primary btnClick col-3">-</button>
         </div>
         <div class="row">
-            <button id="6" class="btn btn-primary btnClick">6</button>
-            <button id="5" class="btn btn-primary btnClick">5</button>
-            <button id="4" class="btn btn-primary btnClick">4</button>
-            <button id="*" class="btn btn-primary btnClick">*</button>
+            <button id="6" class="btn btn-primary btnClick col-3">6</button>
+            <button id="5" class="btn btn-primary btnClick col-3">5</button>
+            <button id="4" class="btn btn-primary btnClick col-3">4</button>
+            <button id="*" class="btn btn-primary btnClick col-3">*</button>
         </div>
         <div class="row">
-            <button id="3" class="btn btn-primary btnClick">3</button>
-            <button id="2" class="btn btn-primary btnClick">2</button>
-            <button id="1" class="btn btn-primary btnClick">1</button>
-            <button id="/" class="btn btn-primary btnClick">/</button>
+            <button id="3" class="btn btn-primary btnClick col-3">3</button>
+            <button id="2" class="btn btn-primary btnClick col-3">2</button>
+            <button id="1" class="btn btn-primary btnClick col-3">1</button>
+            <button id="/" class="btn btn-primary btnClick col-3">/</button>
         </div>
         <div class="row">
-            <button id="0" class="btn btn-primary btnClick">0</button>
-            <button id="CE" class="btn btn-primary clear">CE</button>
-            <button id="=" class="btn btn-primary equal">=</button>
-            <button id="+" class="btn btn-primary btnClick">+</button>
+            <button id="0" class="btn btn-primary btnClick col-3">0</button>
+            <button id="CE" class="btn btn-primary clear col-3">CE</button>
+            <button id="=" class="btn btn-primary equal col-3">=</button>
+            <button id="+" class="btn btn-primary btnClick col-3">+</button>
         </div>
     </div>
 </body>
