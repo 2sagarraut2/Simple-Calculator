@@ -1,7 +1,7 @@
 # JavaScript Calculator
 ## Simple Calculator to perform mathematical operations.
 
-You can perform operations like addition, substraction, multiplication, division and modulo using this Calculator.
+You can perform operations like addition, subtraction, multiplication, division and modulo using this Calculator.
 
 **Just download the code and open index.html file into your browser and you're ready to go.**
 
